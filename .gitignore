@@ -1,0 +1,38 @@
+# COPY from https://github.com/michal-franc/dotfiles/blob/master/.gitignore
+# Ignore everything
+/*
+/*/
+node_modules/
+*.lock
+
+# But not these files...
+!*.gitignore
+!startup.sh
+!*.pylintrc
+!*.Xresources
+!*.zshrc
+!*.xinitrc
+!*.taskrc
+!*recurrent.sh
+!*.muttrc
+!README.md
+
+# and not this folders
+!.mutt
+!images
+!wallpapers
+!_vimrc
+!arch
+!mint
+!init_vim.sh
+!i3-layouts
+!install_instructions
+!layouts
+
+# and not this stuff from .config
+!polybar
+!termite
+!compton.conf
+!fontcoding
+!Code/User/*.json
+!Code/*.sh
